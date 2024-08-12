@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card__wrapper">
+        <figure class="card">
+          <div class="card__image-wrapper">
+            <img
+              class="card__image-mobile"
+              src="images/image-product-mobile.jpg"
+              alt="Product Image on Mobile Device"
+              width="686"
+              height="480"
+            />
+            <img
+              class="card__image-desktop"
+              src="images/image-product-desktop.jpg"
+              alt="Product Image on Desktop Device"
+              width="1440"
+              height="800"
+            />
+          </div>
+          <figcaption class="card__description-wrapper">
+            <div class="card__category">Perfume</div>
+            <h2 class="card__title">Gabrielle Essence Eau De Parfum</h2>
+            <p class="card__information">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="card__price">
+              <span class="card__offer-price">$149.99</span>
+              <span class="card__actual_price"> <del>$169.99</del> </span>
+            </div>
+            <button class="button add-to-cart">
+              <img
+                class="button__icon"
+                src="images/icon-cart.svg"
+                alt="Cart Illustration"
+              />
+              <span class="button__text">Add to Cart</span>
+            </button>
+          </figcaption>
+        </figure>
+      </section>
+      <footer class="attribution__wrapper">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Amit Shaw</a>.
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
